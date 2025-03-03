@@ -1,0 +1,6 @@
+a=10
+b=True
+c='a'
+d=2.03
+e=12.34524
+print(a,b,c,d,e)
