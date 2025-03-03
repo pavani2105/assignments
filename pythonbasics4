@@ -1,0 +1,6 @@
+def variables(a):
+    a="local"
+    return a
+a="global"
+print(a)
+print(variables(a))
