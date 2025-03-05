@@ -1,0 +1,5 @@
+s1="hello"
+print(s1.startswith("he"))
+print(s1.startswith("m"))
+print(s1.endswith("lo"))
+print(s1.endswith("me"))
