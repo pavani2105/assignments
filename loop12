@@ -1,0 +1,5 @@
+gender=input()
+if gender=='m':
+    print("male")
+if gender=='f':
+    print("female")
