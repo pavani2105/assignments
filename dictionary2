@@ -1,0 +1,10 @@
+k = [1, 2, 3]  
+v = ['a', 'b', 'c']  
+d = {}  
+
+for i in range(len(k)):  
+    d[k[i]] = v[i]  
+
+print(d)  #create a nested loop dictionary
+for i in d.values():
+    print(i)#accesing values
