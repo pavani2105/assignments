@@ -1,0 +1,4 @@
+s1="    hello    "
+print(s1.strip())
+s2="hi mini"
+print(s2.strip("hi"))
