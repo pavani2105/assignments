@@ -1,0 +1,10 @@
+l=[34,342,45,674,754,4,4,8,9,543]
+c=0
+for i in l:
+    if c<i:
+        c=i
+print(c)
+for i in l:
+    if c>i:
+        c=i
+print(c)
