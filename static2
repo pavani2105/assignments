@@ -1,0 +1,4 @@
+class Mine():
+    n=int(input())
+obj=Mine()
+print(obj.n)
