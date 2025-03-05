@@ -1,0 +1,6 @@
+class Mine():
+    n=10
+obj=Mine()
+obj.n=20
+print(obj.n)
+print(Mine.n)
