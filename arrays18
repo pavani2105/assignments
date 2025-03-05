@@ -1,0 +1,11 @@
+l=[34,342,45,674,754,4,4,8,9,543]
+s=set()
+a=set()
+for i in l:
+    if i in s:
+        a.add(i)
+    else:
+        s.add(i)
+
+print(set(l)-a)
+        
