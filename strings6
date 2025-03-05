@@ -1,0 +1,11 @@
+import re  
+
+substr = 'Madara'  
+str6 = 'Madara once said' 
+
+match = re.match(substr, str6)  
+
+if match:  
+    print("Match found at the beginning.")  
+else:  
+    print("No match at the beginning.")  
