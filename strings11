@@ -1,0 +1,2 @@
+s="hi welcome"
+print(s.split())
