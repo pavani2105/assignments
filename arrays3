@@ -1,0 +1,5 @@
+l=[34,342,45,674,754,4,4,8,9,543]
+n=int(input())
+for i in range(len(l)):
+    if l[i]==n:
+        print(i)
