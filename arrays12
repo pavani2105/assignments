@@ -1,0 +1,6 @@
+l=[34,342,45,674,754,4,4,8,9,543]
+a=[]
+for i in l:
+    if i not in a:
+        a.append(i)
+print(a)
