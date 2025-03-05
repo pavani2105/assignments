@@ -1,0 +1,5 @@
+original_string = "This is a sample string."  
+start = 5  
+end = 15  
+substring = original_string[start:end]  
+print(substring)  
