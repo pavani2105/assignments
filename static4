@@ -1,0 +1,4 @@
+class Mine():
+    n=10
+Mine.n=20
+print(Mine.n)
