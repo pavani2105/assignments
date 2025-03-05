@@ -1,0 +1,15 @@
+class Student:
+    def __init__(self,name,age):
+        self._name=name
+        self._age=age
+    def _display(self):
+        print(self._name)
+class Person(Student):
+    def __init__(self,name,age,roll):
+        super().__init__(name,age)
+        self._roll=roll
+    def display(self):
+        self._display()
+        print(self._roll)
+s=Person("a",34,2)
+s.display()
